@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Жак-Ив Кусто</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__logo button-opacity"></div>
+    </header>
+
+    <main class="content">
+      <section class="profile">
+        <div class="profile__avatar"></div>
+        <div class="profile__info">
+          <h1 class="profile__title">Жак-Ив Кусто</h1>
+          <button class="profile__edit-button button-opacity" type="button"></button>
+          <p class="profile__subtitle">Исследователь океана</p>
+        </div>
+        <button class="profile__add-button button-opacity" type="button"></button>
+      </section>
+
+      <section class="cards" aria-label="карточки">
+      </section>
+
+      <section class="popup popup_type_edit-profile">
+        <div class="popup__container popup__container_type_edit-profile">
+          <button class="popup__close-button button-opacity" type="button"></button>
+          <h2 class="popup__heading">Редактировать профиль</h2>
+          <form class="popup__form popup_type_edit-profile-form" name="profileForm">
+            <fieldset class="popup__form-container">
+              <input class="popup__text popup__text_type_name" type="text" name="name" value="" minlength="2"
+                maxlength="40" required>
+              <input class="popup__text popup__text_type_about" type="text" name="about" value="" minlength="2"
+                maxlength="200" required>
+              <button class="popup__form-submit button-opacity" type="submit">Сохранить</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <section class="popup popup_type_add-card">
+        <div class="popup__container popup__container_type_add-card">
+          <button class="popup__close-button popup__close-button_type_add-card button-opacity" type="button"></button>
+          <h2 class="popup__heading">Новое место</h2>
+          <form class="popup__form popup__form_type_add-card" name="cardForm">
+            <fieldset class="popup__form-container">
+              <input class="popup__text popup__text_type_heading" placeholder="Название" type="text" name="heading"
+                value="" minlength="1" maxlength="30" required>
+              <input class="popup__text popup__text_type_link" placeholder="Ссылка на картинку" type="url" name="link"
+                value="" required>
+              <button class="popup__form-submit button-opacity" type="submit">Создать</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <!-- <section class="form">
+        <div class="popup">
+          <form class="popup__container" name="profileForm">
+            <button class="popup__close-button button-opacity" type="button"></button>
+            <h2 class="popup__form-heading">Редактировать профиль</h2>
+            <input class="popup__text popup__text_type_name" type="text" name="name" value="">
+            <input class="popup__text popup__text_type_about" type="text" name="about" value="">
+            <button class="popup__save-button button-opacity" type="submit">Сохранить</button>
+          </form>
+        </div>
+
+        <div class="popup card-popup">
+          <form class="popup__container card-popup__form" name="cardForm">
+            <button class="popup__close-button card-popup__close-button button-opacity" type="button"></button>
+            <h2 class="popup__form-heading">Новое место</h2>
+            <input class="popup__text popup__text_type_heading" placeholder="Название" type="text" name="heading"
+              value="">
+            <input class="popup__text popup__text_type_link" placeholder="Ссылка на картинку" type="text" name="link"
+              value="">
+            <button class="popup__save-button button-opacity" type="submit">Создать</button>
+          </form>
+        </div>
+      </section> -->
+
+      <!-- <section class="image">
+        <div class="image__popup-container">
+          <div class="image__popup"></div>
+          <button class="image__popup-close button-opacity"></button>
+          <h3 class="image__heading"></h3>
+        </div>
+      </section> -->
+      <section class="popup popup_type_full-image">
+        <div class="popup__container popup__container_type_full-image">
+          <img class="popup__full-image" src="#" alt="">
+          <button class="popup__close-button popup__close-button_type_full-image button-opacity"></button>
+          <h3 class="popup__full-image-heading"></h3>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2020 Mesto Georgia</p>
+    </footer>
+  </div>
+
+  <!-- <template class="card-template">
+    <article class="card">
+      <div class="card__image"></div>
+      <button class="card__dellete button-opacity"></button>
+      <div class="card__container">
+        <h3 class="card__heading"></h3>
+        <button class="card__like button-opacity" type="button"></button>
+      </div>
+    </article>
+  </template> -->
+  <template class="card-template">
+    <article class="card">
+      <img class="card__image" src="" alt="">
+      <button class="card__delete button-opacity"></button>
+      <div class="card__container">
+        <h3 class="card__heading"></h3>
+        <button class="card__like button-opacity" type="button"></button>
+      </div>
+    </article>
+  </template>
+  <script src="./scripts/initial-сards.js"></script>
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>
