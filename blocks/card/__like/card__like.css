@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    outline: none;
+    outline: 1px solid red;
     background-color: transparent;
     margin-right: 20px;
     width: 22px;
