@@ -8,7 +8,7 @@
     width: 18px;
     cursor: pointer;
     border: none;
-    outline: none;
+    outline: 1px solid blue;
     top: 18px;
     right: 16px;
 }
