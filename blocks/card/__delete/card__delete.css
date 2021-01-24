@@ -2,7 +2,7 @@
     position: absolute;
     background-image: url('../../../images/trash.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50%;
     background-color: transparent;
     height: 19px;
     width: 18px;
