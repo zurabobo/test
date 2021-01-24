@@ -8,9 +8,10 @@
     width: 18px;
     cursor: pointer;
     border: none;
-    outline: 1px solid blue;
+    outline: 1px solid red;
+    box-sizing: border-box;
     top: 18px;
-    /* right: 16px; */
+    right: 16px;
 }
 
 .card__delete:hover {
