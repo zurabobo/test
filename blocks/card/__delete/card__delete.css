@@ -10,7 +10,7 @@
     border: none;
     outline: 1px solid blue;
     top: 18px;
-    right: 16px;
+    /* right: 16px; */
 }
 
 .card__delete:hover {
