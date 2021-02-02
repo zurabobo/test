@@ -3,9 +3,9 @@
     background-size: 22px 19px;
     background-position-x: right;
     background-repeat: no-repeat;
+    background-color: transparent;
     border: none;
     outline: none;
-    background-color: transparent;
     margin-right: 20px;
     width: 22px;
     height: 19px;
@@ -15,12 +15,3 @@
 .card__like:hover {
     opacity: .5;
 }
-
-/* .card__like:focus {
-    background-image: url('../../../images/favorite-active.svg');
-}
-
-.card__like:active {
-    background-image: url('../../../images/favorite-active.svg');
-    opacity: 1;
-} */

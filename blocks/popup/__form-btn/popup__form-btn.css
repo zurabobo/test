@@ -1,4 +1,4 @@
-.popup__form-submit {
+.popup__form-btn {
     width: 358px;
     min-height: 50px;
     background: #000000;
@@ -10,12 +10,12 @@
     cursor: pointer;
 }
 
-.popup__form-submit:hover {
+.popup__form-btn:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 880px) {
-    .popup__form-submit {
+    .popup__form-btn {
         max-width: 238px;
         min-height: 46px;
     }

@@ -1,7 +1,7 @@
-.popup__text {
+.popup__form-text {
     width: 100%;
-    padding: 0 0 13px;
-    margin: 48px 0 26px;
+    padding: 0 0 10px;
+    margin: 48px 0 28px;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
     background-color: transparent;
@@ -10,22 +10,18 @@
 }
 
 
-.popup__text:focus {
+.popup__form-text:focus {
     outline-color: #2B7CFF;
 }
 
-.popup__text:last-of-type {
+.popup__form-text:last-of-type {
     margin: 0 0 44px;
 }
 
 @media screen and (max-width: 880px) {
-    .popup__text {
-        margin: 75px 0 26px;
+    .popup__form-text {
+        margin: 74px 0 28px;
     }
 }
 
-@media screen and (max-width: 880px) {
-    .popup__text:last-of-type {
-        margin: 0 0 40px;
-    }
-}
+
