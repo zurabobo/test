@@ -9,6 +9,7 @@
     color: #FF0000;
     margin-top: -28px;
     transition: .3s;
+    padding: 0;
 }
 
 .popup__form-text-error:last-of-type {
