@@ -1,6 +1,6 @@
 .popup__form-text-error {
     opacity: 0;
-    /* position: absolute; */
+    position: absolute;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
